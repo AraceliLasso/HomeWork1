@@ -3,14 +3,60 @@
 }
 
 .miTexto {
-    font-size: 25px;
+    font-size: 1em;
     color: black;
 }
-.miTextoGeneral{
-    font-size: 20px;
+
+p {
+    font-size: 1.5em;
     color: azure;
 }
-.miTextoRojo{
-    font-size: 25px;
-    color: #3B0B0B;
+
+h3 {
+    font-size: 2em;
+    color: #771515;
+}
+h1{
+    font-size: 3em;
+    color: #d90404;
+}
+.tituloo{
+     display: flex;
+    flex-direction:row;
+    justify-content:center;
+}
+#principal{
+    font-size: 2em;
+    color: #a54646;
+}
+.centrar{
+    width: fit-content;
+    margin: auto;
+}
+.cuadro{
+   border: 2px solid #DBA901;
+    width: 60vw;
+    padding: 0px 3em 1em 3em;
+    margin: 5px auto 10px auto;
+    border-radius: 25%;
+}
+.Selector:hover{
+    background-color: #DBA901;
+    transition: 0.5s;
+}
+
+.tres{
+    padding: 2em 3em 2px 3em;
+    margin: auto;
+    width:fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5em;
+    align-items: center;
+}
+.tres{
+    display: flex;
+    flex-direction: row;
+    justify-content:;
 }
